@@ -1,0 +1,131 @@
+.images {
+    height: 400px;
+    width: 400px;
+    border-style:ridge;
+    border-color:black;
+    padding:1px;
+}
+
+.image-allign {
+    shape-margin: square;
+    background-color:darkblue;
+}
+
+.para {
+    font-family: cursive;
+    color: bisque;
+    border-style:hidden;
+    background-color:darkgreen;
+}
+
+#heading {
+    font-family: monospace;
+    font-size: 40px;
+    color: chartreuse;
+    background: linear-gradient(red 10%, blue 100%)
+}
+
+#family {
+    font-family: cursive;
+    color: #e63b02;
+}
+
+#anandasection {
+    background: linear-gradient(#2b89ed 10%, #1f9914 100%);
+}
+
+.menu {
+    list-style: none;
+    position: fixed;
+    font-family: fantasy;
+    top: 10px;
+    left: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+#prafullasection {
+    background: linear-gradient(#eb1e1e 10%, #abad11 100%);
+}
+
+#aboutsection {
+    background: linear-gradient(#570e9c 10%, #bf3d0a 100%);
+}
+
+#abouthead {
+    color: yellow;
+    font-family: cursive;
+}
+
+#family1 {
+    font-family: cursive;
+    color: #77e0f2;
+}
+
+html {
+    scroll-behavior:smooth;
+}
+
+.locate {
+    float: left;
+    padding-top: 8px;
+    padding-right: 5px;
+    padding-bottom: 8px;
+    padding-left: 5px;
+    font-family: inherit;
+    font-size: 20px;
+}
+
+a {
+    color: yellow;
+}
+
+.locate:hover {
+    background-color: azure;
+}
+
+a:hover {
+    color: red;
+}
+
+img {
+    transition: transform .4s;
+}
+
+img:hover {
+    transform: scale(1.3);
+}
+
+.text {
+    font-family: monospace;
+    font-size: 20px;
+    color: aqua;
+}
+
+#me {
+    background: linear-gradient(#fa4205 10%, #216611 100%);
+}
+
+#mypic {
+    height: 500px;
+    width: 389px;
+}
+
+#mehead {
+    font-family: cursive;
+    color: #133b80;
+
+}
+
+.links {
+    color:#ed6dcf;
+}
+
+.links:hover {
+    color: yellow;
+}
+.families {
+    color:lightgray;
+    font-family:inherit;
+    font-size:30px;
+}
